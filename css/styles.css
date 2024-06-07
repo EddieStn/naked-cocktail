@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Acme&family=Prata&display=swap');
-
+/* Fonts */
 .prata {
     font-family: "Prata", serif;
     font-weight: 400;
@@ -34,6 +34,13 @@
     font-family: "Libre Caslon Text", serif;
     font-weight: 400;
     font-style: italic;
+}
+/* End Fonts */
+
+/* Global Styles */
+
+html {
+    scroll-behavior: smooth;
 }
 
 li {
