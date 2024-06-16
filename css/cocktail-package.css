@@ -4,36 +4,52 @@ body {
     padding: 0;
 }
 
+a {
+    text-decoration: none;
+}
+
 .container {
     display: flex;
     justify-content: center;
-    margin-top: 50px;
+    margin: 50px auto;
 }
 
 .button {
     width: 200px;
     height: 100px;
+    padding: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     margin: 10px;
     border-radius: 5px;
-    color: white;
     font-size: 20px;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
 
+.button a {
+    text-decoration: none;
+    color: #fff;
+}
+.button a:hover {
+    color: #fff;
+}
+
 .naked-range {
-    background-color: #c5e17a;
+    background-color: #6d910ca2;
 }
 
+.naked-range:hover {
+    background-color: #6e910c;
+}
 .classic-cocktails {
-    background-color: #d3a17d;
+    background-color: #cd5f11a1;
 }
 
-.button:hover {
-    background-color: #8b4513; 
+.classic-cocktails:hover {
+    background-color: #cd5f11;
 }
 
 .upgrade-section {
@@ -49,4 +65,13 @@ body {
 .upgrade-section h2 {
     text-align: center;
     font-size: 25px;
+}
+
+h4 {
+    text-transform: uppercase;
+    color: #6e910c;
+}
+
+.title {
+    color: #cd5f11;
 }
